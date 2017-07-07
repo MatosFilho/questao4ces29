@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="20" failures="0" name="runners.ClasseRunnerTest" time="0.018" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Matos\eclipse-workspace\questao4ces29"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Matos\eclipse-workspace\questao4ces29"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Matos\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\Matos\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf854626150495971894.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_131/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_131/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_131/bin/../jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Matos"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Matos"/>
+    <property name="java.class.path" value="/C:/Program Files/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Matos\eclipse-workspace\questao4ces29\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Cenário: Arquivo com nome invalido" name="Dado um arquivo com nome invalido" time="0.006"/>
+  <testcase classname="Cenário: Arquivo com nome invalido" name="Quando ocorre a tentativa de abrir o arquivo" time="0"/>
+  <testcase classname="Cenário: Arquivo com nome invalido" name="Então uma mensagem de erro e mostrada" time="0"/>
+  <testcase classname="Cenário: Arquivo com nome invalido" name="Cenário: Arquivo com nome invalido" time="0.001"/>
+  <testcase classname="Cenário: Arquivo com nome valido para leitura" name="Dado um arquivo com nome valido para leitura" time="0"/>
+  <testcase classname="Cenário: Arquivo com nome valido para leitura" name="Quando esse arquivo e aberto e definido para leitura" time="0"/>
+  <testcase classname="Cenário: Arquivo com nome valido para leitura" name="Então resultado do arquivo e mostrado na tela" time="0"/>
+  <testcase classname="Cenário: Arquivo com nome valido para leitura" name="Cenário: Arquivo com nome valido para leitura" time="0.001"/>
+  <testcase classname="Cenario: Arquivo com nome valido para escrita" name="Dado um arquivo com nome valido para ser escrito" time="0"/>
+  <testcase classname="Cenario: Arquivo com nome valido para escrita" name="Quando esse arquivo e aberto e definido para escrita" time="0"/>
+  <testcase classname="Cenario: Arquivo com nome valido para escrita" name="Então escrita e realizada e mostrada na tela" time="0.001"/>
+  <testcase classname="Cenario: Arquivo com nome valido para escrita" name="Cenario: Arquivo com nome valido para escrita" time="0.001"/>
+  <testcase classname="Cenario: Saída de um arquivo válido" name="Dado que o usuario abriu um arquivo" time="0.002"/>
+  <testcase classname="Cenario: Saída de um arquivo válido" name="Quando ele nao quer mais o modificar" time="0"/>
+  <testcase classname="Cenario: Saída de um arquivo válido" name="Então ele decide sair" time="0.002"/>
+  <testcase classname="Cenario: Saída de um arquivo válido" name="Cenario: Saída de um arquivo válido" time="0.002"/>
+  <testcase classname="Cenario: Arquivo aberto e comando inválido é digitado" name="Dado que o usuario abriu corretamente um arquivo" time="0.002"/>
+  <testcase classname="Cenario: Arquivo aberto e comando inválido é digitado" name="Quando ele escolhe um comando nao valido" time="0"/>
+  <testcase classname="Cenario: Arquivo aberto e comando inválido é digitado" name="Então ele e avisado do ocorrido" time="0"/>
+  <testcase classname="Cenario: Arquivo aberto e comando inválido é digitado" name="Cenario: Arquivo aberto e comando inválido é digitado" time="0"/>
+</testsuite>
